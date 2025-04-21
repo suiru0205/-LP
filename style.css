@@ -1,0 +1,14 @@
+/* 画像の親要素があれば幅100%に */
+.image-container {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  /* 画像自体も幅100%で縮小・拡大に対応 */
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
